@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Not ortalaması hesaplama</title>
+  <link rel="stylesheet" href="assets/css/ortalama.css">
+  <script src="assets/js/ortalama.js" defer></script>
+  
+</head>
+<body>
+  <div class="container">
+    <form class="ogrenciForm">
+      <div class="form-group">
+        <label class="form_label" for="name">Adınız :</label>
+        <input required type="text" id="name" name="name">
+      </div>
+      <div class="form-group">
+        <label class="form_label" for="lname"> Soyadınız :</label>
+        <input required type="text" id="lname" name="lname">
+      </div>
+      <div class="form-group">
+        <label class="form_label" for="section">Bölümünüz :</label>
+        <input required type="text" id="section" name="section">
+      </div>
+      <div class="form-group">
+        <label class="form_label" for="vize1">Vize 1 notunuzu giriniz :</label>
+        <input class="midterm1" name="vize1" type="number">
+      </div>
+      <div class="form-group">
+        <label class="form_label" for="vize2">Vize 2 notunuzu giriniz :</label>
+        <input class="midterm2" name="vize2" type="number">
+      </div>
+      <div class="form-group">
+        <label class="form_label" for="final">final notunuzu giriniz :</label>
+        <input class="final" name="final" type="number">
+      </div>
+      <button type="submit">Hesapla</button>
+    </form>
+    </div>
+    <div class="students"></div>
+    <strong></strong>
+  
+</body>
+</html>
