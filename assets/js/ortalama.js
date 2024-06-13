@@ -20,10 +20,10 @@ let studentList = [
   // },
 ];
 
-// if(typeof localStorage.student !== 'undefined') {
-//   student = JSON.parse(localStorage.student);
-//   renderStudents();
-// }
+if(typeof localStorage.student !== 'undefined') {
+  student = JSON.parse(localStorage.student);
+  renderStudents();
+}
 
 
 function handleTotal() {
