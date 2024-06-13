@@ -63,6 +63,7 @@ function save() {
 }
 
 function renderStudents() {
+  students.innerHTML="";
   for (let i = 0; i < student.length; i++) {
 
     if (total >= 90) {
